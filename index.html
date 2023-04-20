@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web</title>
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  
+    <!--Bootstrap JS CDN  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+    <!-- favicon -->
+    <link rel="icon" href="favicon.ico">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    
+    <!-- Google Fontstyle -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+
+    </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-dark sticky-top" data-bs-theme="dark">
+        <a class="navbar-brand nav-link" href="#home"><i class="fa-solid fa-house"></i> Personal web</a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#about">ABOUT</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#projects">PORJECTS</a>
+                </li>
+                <li class="navbar-item">
+                    <a class="nav-link" href="#footer">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Intro -->
+    <section id="home">
+        <div class="title">
+            <div class="title-social">
+                <div class="py-1">
+                    <a href="https://github.com/Wayne9314"><i class="fa-brands fa-github title-icon"></i></a>
+                </div>
+                <div class="py-1">
+                    <a href=""><i class="fa-brands fa-linkedin title-icon"></i></a>
+                </div>
+            </div>
+            <div class="intro">
+                <h1>HEY, I'M WAYNE CHEN</h1>
+                <div class="intro_info">
+                    <p class="lh-base">A self-taught programmer trying to become a software developer</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about -->
+    <section id="about" name="about">
+        <div class="main-container">
+            <div class="text-center mb-5">
+                <h2>ABOUT ME</h2>
+                <hr>
+                <p class="heading-sub">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 about-content">
+                    <h3 class="about-content-title">Get to know me</h3>
+                    <p class="container">When I was in college, I used VBA in class and found myself interested in programming. Sadly my major was not Computer-Science then I decided to find online resources. The first language I learned was Python, now I am learning JavaScript and its framework. Hoping one day I can get a job and become a software developer.</p>
+                </div>
+
+                <div class="col-lg-6 about-content">
+                    <h3 class="about-content-title">My skill</h3>
+                    <span class="badge text-bg-dark my-1 fs-5">HTML</span>
+                    <span class="badge text-bg-dark my-1 fs-5">CSS</span>
+                    <span class="badge text-bg-dark my-1 fs-5">RWD</span>
+                    <span class="badge text-bg-dark my-1 fs-5">Python</span>
+                    <span class="badge text-bg-dark my-1 fs-5">Flask</span>
+                    <span class="badge text-bg-dark my-1 fs-5">SQLite</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects -->
+    <section id="projects">
+
+        <div class="main-container">
+            <div class="text-center">
+                <h2>PROJECTS</h2>
+                <hr>
+                <p class="heading-sub">Here you will find some of the personal projects that I created.</p>
+            </div>
+
+            <div class="row card-container">
+                <div class="col-lg-6">
+                    <div class="card mt-5">
+                        <img src="images/blog_image.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h3>Blog</h3>
+                                <span class="badge text-bg-dark fs-6 me-1">Flask</span>
+                                <span class="badge text-bg-secondary fs-6 me-1">SQLite</span>
+                                <ul class="ps-3 fs-5">
+                                    <li class="mb-0 mt-2">A Blog built with Flask</li>
+                                    <li class="mb-0">User can login, register, post and leave comments</li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5">
+                    <div class="card">
+                        <img src="images/personal_web.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <div class="card-text">
+                                <h3>Portfolio</h3>
+                                <span class="badge text-bg-secondary fs-6 me-1">HTML</span>
+                                <span class="badge text-bg-secondary fs-6 me-1">CSS</span>
+                                <span class="badge text-bg-secondary fs-6 me-1">Bootstrap</span>
+                                <ul class="ps-3 fs-5">
+                                    <li class="mb-0 mt-2">A personal webpage built with Bootstrap</li>
+                                </ul>          
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- contact -->
+    <section id="contact">
+
+        <div class="main-container">
+            <div class="text-center">
+                <h2>CONTACT</h2>
+                <hr>
+                <p class="heading-sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="container mt-4">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-sm-7 col-md-7 col-lg-7 bg-white p-4 rounded shadow">
+                        <form action="#" class="contact-form" methods="post">
+                            <div class="mb-4">
+                                <label for="name" class="form-label">Name</label>
+                                <input type="email" class="form-control" placeholder="Enter Your Name">
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" placeholder="Enter Your Email">
+                            </div>
+                            <div class="mb-4">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" rows="10" placeholder="Leave Some Message"></textarea>
+                            </div>
+                            <a href="#"><button type="button" class="btn btn-secondary">Submit</button></a>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="footer">
+
+        <div class="footer-content">
+            <div class="footer-info w-50">
+                <p class="fs-4 text-white">WAYNE CHEN</p>
+                <p class="fs-6 text-white pt-2">A self-taught programmer trying to become a software developer</p>
+            </div>
+            <div class="footer-social">
+                <p class="fs-4">SOCIAL</p>
+                <a href="https://github.com/Wayne9314"><i class="fa-brands fa-github m-1 text-white"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin m-1 text-white"></i></a>
+            </div>
+        </div>
+
+    </footer>
+  </body>
+</html>
