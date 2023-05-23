@@ -108,6 +108,17 @@ hr{
     padding: 0 10%;
 }
 
+.skills{
+    display: inline-block;
+    font-size: 14px;
+    border: 1px solid;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    padding: 3px 7px;
+    margin-bottom: 5px;
+  }
+
 /* footer */
 #footer{
     background-color: #040404;  
